@@ -1,0 +1,8 @@
+module destination(direction, slcFl, dest);
+ input logic direction;
+ input logic [2:0] slcFl;
+ 
+ output logic [2:0] dest;
+ 
+ 
+endmodule

@@ -1,0 +1,8 @@
+module move(clk,sel,LEDR,KEY);
+ input logic clk;
+ input logic sel;
+ input logic KEY;
+ output logic [9:0] LEDR;
+ 
+ 
+endmodule

@@ -1,0 +1,4 @@
+module comparator(clk, in1, in2, out);
+ input logic clk;
+ input logic [9:0] in1, in2;
+ output logic out;

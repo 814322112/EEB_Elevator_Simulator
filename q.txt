@@ -1,0 +1,147 @@
+else if(direction == 1'b0)
+ begin
+   if (current == 3'b000) begin
+    if(SW[9]) sel <= 3'b000;
+    else if (SW[8]) sel <= 3'b001;
+    else if (SW[7]) sel <= 3'b010;
+    else if (SW[6]) sel <= 3'b011;
+    else if (SW[5]) sel <= 3'b100;
+    else if (SW[4]) sel <= 3'b101;
+    else if (SW[3]) sel <= 3'b110;
+    else sel <= 3'b111;
+ end
+  
+ else if (current == 3'b001) begin
+   if (SW[8]) sel <= 3'b010;
+   else if (SW[7]) sel <= 3'b010;
+   else if (SW[6]) sel <= 3'b011;
+   else if (SW[5]) sel <= 3'b100;
+   else if (SW[4]) sel <= 3'b101;
+   else if (SW[3]) sel <= 3'b110;
+   else if (SW[9]) begin sel <= 3'b001; direction <= 1'b1; end
+   else sel <= 3'b111;
+ end
+  
+ else if  (current == 3'b010) begin
+    if (SW[7]) sel <= 3'b010;
+   else if (SW[6]) sel <= 3'b011;
+   else if (SW[5]) sel <= 3'b100;
+   else if (SW[4]) sel <= 3'b101;
+   else if (SW[3]) sel <= 3'b110;
+   else begin
+     direction <= 1'b1;     
+     if (SW[8]) sel <= 3'b001; 
+     else if (SW[9]) sel <= 3'b000; 
+     else sel <= 3'b111;
+   end
+  end
+
+  else if (current == 3'b011) begin
+   if (SW[6]) sel <= 3'b011;
+   else if (SW[5]) sel <= 3'b100;
+   else if (SW[4]) sel <= 3'b101;
+   else if (SW[3]) sel <= 3'b110;
+   else begin
+    direction <= 1'b1; 
+    if (SW[7]) sel <= 3'b010; 
+    else if (SW[8]) sel <= 3'b001; 
+    else if (SW[9]) sel <= 3'b000; 
+    else sel <= 3'b111;
+   end
+  end
+  
+  else if (current == 3'b100) begin
+   if (SW[5]) sel <= 3'b100;
+   else if (SW[4]) sel <= 3'b101;
+   else if (SW[3]) sel <= 3'b110;
+   else begin
+    direction <= 1'b1;
+    if (SW[6])  sel <= 3'b011; 
+    else if (SW[7]) sel <= 3'b010; 
+    else if (SW[8]) sel <= 3'b001; 
+    else if (SW[9]) sel <= 3'b000; 
+    else sel <= 3'b111;
+   end
+  end
+ 
+  else if (current == 3'b101) begin
+   if (SW[4]) sel <= 3'b101;
+   else if (SW[3]) sel <= 3'b110;
+   else begin
+    direction <= 1'b1;
+    if (SW[5]) sel <= 3'b100; 
+    else if (SW[6]) sel <= 3'b011; 
+    else if (SW[7]) sel <= 3'b010; 
+    else if (SW[8]) sel <= 3'b001; 
+    else if (SW[9]) sel <= 3'b000; 
+    else sel <= 3'b111;
+   end
+  end
+ 
+  else if (current == 3'b110) begin
+   direction <= 1'b1;
+   if(SW[3]) sel <= 3'b110;
+   else if (SW[4]) sel <= 3'b101;
+   else if (SW[5]) sel <= 3'b100; 
+   else if (SW[6]) sel <= 3'b011; 
+   else if (SW[7]) sel <= 3'b010; 
+   else if (SW[8]) sel <= 3'b001; 
+   else if (SW[9]) sel <= 3'b000; 
+   else sel <= 3'b111;
+  end
+end
+
+else if (direction == 1'b1) begin
+ if (current == 3'b000) begin
+  direction <= 1'b0;
+ end
+ else if (current == 3'b001) begin
+   if(SW[8]) sel <= 3'b001; 
+   else if(SW[9]) sel <= 3'b000;
+   else direction <= 1'b0;
+ end
+ else if (current == 3'b010) begin
+  if(SW[7]) sel <= 3'b010;
+  else if(SW[8]) sel <= 3'b001; 
+  else if(SW[9]) sel <= 3'b000;
+  else direction <= 1'b0;
+ end
+ else if (current == 3'b011) begin
+  if(SW[6]) sel <= 3'b011;
+  else if(SW[7]) sel <= 3'b010;
+  else if(SW[8]) sel <= 3'b001; 
+  else if(SW[9]) sel <= 3'b000;
+  else direction <= 1'b0;
+ end
+ else if (current == 3'b100) begin
+  if(SW[5]) sel <= 3'b100;
+  else if(SW[6]) sel <= 3'b011;
+  else if(SW[7]) sel <= 3'b010;
+  else if(SW[8]) sel <= 3'b001; 
+  else if(SW[9]) sel <= 3'b000;
+  else direction <= 1'b0;
+ end
+ else if (current == 3'b101) begin
+  if(SW[4]) sel <= 3'b101;
+  else if(SW[5]) sel <= 3'b100;
+  else if(SW[6]) sel <= 3'b011;
+  else if(SW[7]) sel <= 3'b010;
+  else if(SW[8]) sel <= 3'b001; 
+  else if(SW[9]) sel <= 3'b000;
+  else direction <= 1'b0;
+ end
+ else if(current == 3'b110) begin
+  if(SW[3]) sel <= 3'b110;
+  else  if(SW[4]) sel <= 3'b101;
+  else if(SW[5]) sel <= 3'b100;
+  else if(SW[6]) sel <= 3'b011;
+  else if(SW[7]) sel <= 3'b010;
+  else if(SW[8]) sel <= 3'b001; 
+  else if(SW[9]) sel <= 3'b000;
+  else direction <= 1'b0;
+ end
+end
+ 
+
+
+

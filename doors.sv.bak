@@ -1,0 +1,5 @@
+module doors(currentFl,LEDR,close);
+ input logic close;
+ input logic [2:0] currentFl;
+ 
+endmodule 

@@ -1,0 +1,93 @@
+module DE1_SoC (CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, KEY, LEDR,
+SW);
+ input logic CLOCK_50; // 50MHz clock.
+ output logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+ output logic [9:0] LEDR;
+ input logic [3:0] KEY;
+ input logic [9:0] SW;
+
+ // Generate clk off of CLOCK_50, whichClock picks rate.
+ logic [31:0] clk;
+ parameter whichClock = 24;
+ clock_divider cdiv (CLOCK_50, clk);
+ logic reset, out2, out1, out0; // Pass the output to the LEDRs.
+ logic co2, co1, co0, ro2, ro1, ro0, lo2, lo1, lo0; // Outputs of three subunits.
+ assign reset = ~KEY[0]; // Reset when KEY[0] is pressed.
+ // Generate patterns for LEDRs to display.
+ calm c (.clk(clk[whichClock]), .reset, .out2(co2), .out1(co1), .out0(co0));
+ Right2Left  r (.clk(clk[whichClock]), .reset, .out2(ro2), .out1(ro1), .out0(ro0));
+ Left2Right  l (.clk(clk[whichClock]), .reset, .out2(lo2), .out1(lo1), .out0(lo0));
+ 
+ always_comb begin
+  case (SW[1:0])
+   2'b00: begin
+			 LEDR[2] = co2;
+          LEDR[1] = co1;
+          LEDR[0] = co0;
+			 end
+   2'b01: begin
+			 LEDR[2] = ro2;
+          LEDR[1] = ro1;
+          LEDR[0] = ro0;
+			 end
+   2'b10: begin
+			 LEDR[2] = lo2;
+          LEDR[1] = lo1;
+          LEDR[0] = lo0;
+			 end
+   default: LEDR[2:0] = 3'b000;
+  endcase
+ end 
+endmodule
+
+// divided_clocks[0] = 25MHz, [1] = 12.5Mhz, ... [23] = 3Hz, [24] = 1.5Hz,
+// [25] = 0.75Hz, ...
+module clock_divider (clock, divided_clocks);
+ input logic clock;
+ output logic [31:0] divided_clocks = 0;
+
+ always_ff @(posedge clock) begin
+ divided_clocks <= divided_clocks + 1;
+ end
+
+endmodule
+
+module DE1_SoC_testbench();
+ logic clk, reset;
+ logic [2:0] LEDR;
+ logic [9:0] SW;
+
+ DE1_SoC dut (clk, reset, LEDR, SW);
+
+ // Set up the clock.
+ parameter CLOCK_PERIOD=100;
+ initial begin
+ clk <= 0;
+ forever #(CLOCK_PERIOD/2) clk <= ~clk;
+ end
+
+ // Set up the inputs to the design. Each line is a clock cycle.
+ initial begin
+ @(posedge clk);
+ reset <= 1; @(posedge clk);
+ reset <= 0; @(posedge clk);
+ @(posedge clk);
+ reset <= 1; @(posedge clk);
+ reset <= 0; @(posedge clk);
+ @(posedge clk);
+ @(posedge clk);
+ reset <= 1; @(posedge clk);
+ reset <= 0; @(posedge clk);
+ @(posedge clk);
+ SW[1:0] = 2'b00; @(posedge clk);
+ @(posedge clk);
+ @(posedge clk);
+ SW[1:0] = 2'b01; @(posedge clk);
+ @(posedge clk);
+ @(posedge clk);
+ SW[1:0] = 2'b10; @(posedge clk);
+ @(posedge clk);
+ @(posedge clk);
+ $stop; // End the simulation.
+ end
+endmodule 

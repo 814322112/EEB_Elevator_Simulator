@@ -1,0 +1,11 @@
+module doubleDDF(clock, userinput, out);
+ input logic clock, reset, userinput;
+ output logic out;
+ logic firstDFFout;
+ 
+ always_ff @(posedge clock) begin
+  firstDFFout <= userinput;
+  out <= firstDFFout;
+ end
+
+ 

@@ -1,0 +1,78 @@
+module displayResult(Clock, reset, left, right, L, R, HEX0);
+ input logic Clock, reset, left, right, L, R;
+ output logic [6:0] HEX0;
+ logic leftWin, rightWin;
+ assign leftWin = (left & L & ~R);
+ assign rightWin = (right & R & ~L); 
+ enum logic [6:0] { off = 7'b1111111, LW = 7'b0100100, RW = 7'b1001111 } ps, ns;
+ 
+ always_comb begin
+  case(ps)
+   off: if (~leftWin & ~rightWin) ns = off;
+        else if (leftWin)         ns = LW;
+	     else                      ns = RW;
+   LW:                            ns = LW;
+   RW:                            ns = RW;
+  endcase
+ end
+
+ 
+ assign HEX0 = ps;
+ always_ff @(posedge Clock) begin
+  if (reset)
+   ps <= off;
+  else
+   ps <= ns;
+ end
+endmodule
+
+module displayResult_testbench();
+ logic Clock, reset, left, right, L, R;
+ logic [6:0] HEX0;
+ 
+ displayResult dut(Clock, reset, left, right, L, R, HEX0);
+ 
+ parameter CLOCK_PERIOD=100;
+	initial begin
+	   Clock<= 0;
+		forever #(CLOCK_PERIOD/2) Clock <= ~Clock;
+	end
+	initial begin
+   reset <= 1; L <= 0; R <= 0; left <= 0; right <= 0; @(posedge Clock)
+														            @(posedge Clock)
+   reset <= 0;                                        @(posedge Clock)
+	                                                   @(posedge Clock)
+               L <= 0; R <= 0; left <= 0; right <= 1; @(posedge Clock)
+				                                          @(posedge Clock)
+	            L <= 0; R <= 0; left <= 1; right <= 0; @(posedge Clock)
+				                                          @(posedge Clock)
+			      L <= 0; R <= 0; left <= 1; right <= 1; @(posedge Clock)
+				                                          @(posedge Clock)
+				   L <= 0; R <= 1; left <= 0; right <= 0; @(posedge Clock)
+			                                             @(posedge Clock)
+				   L <= 0; R <= 1; left <= 0; right <= 1; @(posedge Clock)
+			                                             @(posedge Clock)
+	            L <= 0; R <= 1; left <= 1; right <= 0; @(posedge Clock)
+	                                                   @(posedge Clock)
+			      L <= 0; R <= 1; left <= 1; right <= 1; @(posedge Clock)
+				                                          @(posedge Clock)
+			      L <= 1; R <= 0; left <= 0; right <= 0; @(posedge Clock)
+				  										            @(posedge Clock)
+	reset <= 1; L <= 1; R <= 0; left <= 0; right <= 1; @(posedge Clock)
+				                                          @(posedge Clock)
+																		@(posedge Clock)
+	reset <= 0; L <= 1; R <= 0; left <= 1; right <= 0; @(posedge Clock)
+				                                          @(posedge Clock)
+			      L <= 1; R <= 0; left <= 1; right <= 1; @(posedge Clock)
+				                                          @(posedge Clock)
+				   L <= 1; R <= 1; left <= 0; right <= 0; @(posedge Clock)
+			                                             @(posedge Clock)
+				   L <= 1; R <= 1; left <= 0; right <= 1; @(posedge Clock)
+			                                             @(posedge Clock)
+				   L <= 1; R <= 1; left <= 1; right <= 0; @(posedge Clock)
+				                                          @(posedge Clock)
+			      L <= 1; R <= 1; left <= 1; right <= 1; @(posedge Clock)
+				                                          @(posedge Clock)
+	$stop; // End the simulation.
+   end
+endmodule

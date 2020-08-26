@@ -1,0 +1,35 @@
+module overload (reset,SW,ovld);
+ input logic reset;
+ input logic [9:0] SW;
+ output logic ovld;
+ integer i,sum;
+ 
+ always_comb begin
+  sum = 0;
+  for(i=3; i<10;i++)begin
+   sum = sum + SW[i];
+  end
+  if (reset)
+   ovld = 1'b0;
+  else if(sum >= 3)
+   ovld = 1'b1;
+  else ovld = 1'b0;
+ end
+endmodule
+
+module overload_testbench();
+ logic reset;
+ logic [9:0] SW;
+ logic ovld;
+ integer j;
+ 
+ overload dut (.reset,.SW,.ovld);
+ 
+ initial begin
+  for(j=0;j<2**9;j++) begin
+   reset = 1;#10;
+	reset = 0;#10;
+	SW = j;#10;
+  end
+ end
+endmodule

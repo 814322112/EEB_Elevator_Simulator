@@ -1,0 +1,2136 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+pwd
+# F:/EE271/Lab 8
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:19 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:08:19 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:19 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 13:08:19 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:19 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 13:08:19 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:19 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 13:08:19 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:19 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 13:08:19 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:19 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 13:08:19 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:19 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 13:08:19 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:19 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 13:08:20 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 13:08:20 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 13:08:20 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work destination_testbench 
+# Start time: 13:08:20 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.destination_testbench
+# Loading work.destination
+# ** Error: (vish-4014) No objects found matching '/destination_testbench/i'.
+# Executing ONERROR command at macro ./destination_wave.do line 8
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {F:/EE271/Lab 8/destination_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:09 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:10:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:09 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 13:10:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:09 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 13:10:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:09 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 13:10:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:09 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 13:10:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:09 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 13:10:10 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:10 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 13:10:10 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:10 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 13:10:10 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:10 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 13:10:10 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:10 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 13:10:10 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:10:11 on Dec 02,2018, Elapsed time: 0:01:51
+# Errors: 3, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work destination_testbench 
+# Start time: 13:10:11 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.destination_testbench
+# Loading work.destination
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./destination.sv(193)
+#    Time: 1450 ps  Iteration: 1  Instance: /destination_testbench
+# Break in Module destination_testbench at ./destination.sv line 193
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:30 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:11:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:30 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 13:11:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:30 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 13:11:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:30 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 13:11:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:30 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 13:11:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:30 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 13:11:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:30 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 13:11:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:30 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 13:11:31 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:31 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 13:11:31 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:31 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 13:11:31 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:11:35 on Dec 02,2018, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work destination_testbench 
+# Start time: 13:11:35 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.destination_testbench
+# Loading work.destination
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./destination.sv(193)
+#    Time: 1450 ps  Iteration: 1  Instance: /destination_testbench
+# Break in Module destination_testbench at ./destination.sv line 193
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {F:/EE271/Lab 8/destination_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:27 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:15:27 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:27 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 13:15:27 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:27 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 13:15:27 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:28 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 13:15:28 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:28 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 13:15:28 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:28 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 13:15:28 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:28 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 13:15:28 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:28 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 13:15:28 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:28 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 13:15:28 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:28 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 13:15:28 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:15:32 on Dec 02,2018, Elapsed time: 0:03:57
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work destination_testbench 
+# Start time: 13:15:32 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.destination_testbench
+# Loading work.destination
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./destination.sv(193)
+#    Time: 1450 ps  Iteration: 1  Instance: /destination_testbench
+# Break in Module destination_testbench at ./destination.sv line 193
+add wave -position 0  sim:/destination_testbench/clk
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {F:/EE271/Lab 8/destination_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:03 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:16:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:03 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 13:16:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:03 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 13:16:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:03 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 13:16:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:04 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 13:16:04 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:04 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 13:16:04 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:04 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 13:16:04 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:04 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 13:16:04 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:04 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 13:16:04 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:04 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 13:16:04 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:16:06 on Dec 02,2018, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work destination_testbench 
+# Start time: 13:16:06 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.destination_testbench
+# Loading work.destination
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./destination.sv(193)
+#    Time: 1450 ps  Iteration: 1  Instance: /destination_testbench
+# Break in Module destination_testbench at ./destination.sv line 193
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:29 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 14:08:29 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:29 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 14:08:30 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:30 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 14:08:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:30 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 14:08:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:30 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 14:08:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:30 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 14:08:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:30 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 14:08:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:30 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 14:08:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:30 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 14:08:30 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:30 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 14:08:31 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 14:08:34 on Dec 02,2018, Elapsed time: 0:52:28
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 14:08:34 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.doubleDFFs
+# Loading work.userInput
+# Loading work.destination
+# Loading work.move
+# Loading work.clock_divider
+# Loading work.displayFloor
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/c/random/q'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/c/press'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/ledr5/lightOn'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/ledr5/Clock'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/ledr5/Reset'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/ledr5/L'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 15
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/ledr5/R'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/ledr5/NL'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 17
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/ledr5/NR'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 18
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/ledr5/ps'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 19
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/dut/ledr5/ns'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 20
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(78)
+#    Time: 2850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 78
+add wave -position 1  sim:/DE1_SoC_testbench/HEX1
+add wave -position 4  sim:/DE1_SoC_testbench/SW
+add wave -position end  sim:/DE1_SoC_testbench/dut/m/sel
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {F:/EE271/Lab 8/DE1_SoC_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:02 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 14:10:02 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:03 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 14:10:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:03 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 14:10:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:03 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 14:10:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:03 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 14:10:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:03 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 14:10:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:03 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 14:10:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:03 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 14:10:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:03 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 14:10:03 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:03 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 14:10:04 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 14:10:06 on Dec 02,2018, Elapsed time: 0:01:32
+# Errors: 33, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 14:10:06 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.doubleDFFs
+# Loading work.userInput
+# Loading work.destination
+# Loading work.move
+# Loading work.clock_divider
+# Loading work.displayFloor
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(78)
+#    Time: 2850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 78
+add wave -position end  sim:/DE1_SoC_testbench/dut/m/current
+add wave -position end  sim:/DE1_SoC_testbench/dut/m/direction
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {F:/EE271/Lab 8/DE1_SoC_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:50 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 14:10:50 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:51 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 14:10:51 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:51 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 14:10:51 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:51 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 14:10:51 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:51 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 14:10:51 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:51 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 14:10:51 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:51 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 14:10:51 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:51 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 14:10:51 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:51 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 14:10:51 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:51 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 14:10:52 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 14:10:54 on Dec 02,2018, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 14:10:54 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.doubleDFFs
+# Loading work.userInput
+# Loading work.destination
+# Loading work.move
+# Loading work.clock_divider
+# Loading work.displayFloor
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(78)
+#    Time: 2850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 78
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:54 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 15:05:55 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:55 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 15:05:55 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:55 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 15:05:55 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:55 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 15:05:55 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:55 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 15:05:55 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:55 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 15:05:55 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:55 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 15:05:55 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:55 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 15:05:55 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:56 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 15:05:56 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:56 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 15:05:56 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:05:56 on Dec 02,2018
+# vlog -reportprogress 300 ./overload.sv 
+# -- Compiling module overload
+# -- Compiling module overload_testbench
+# 
+# Top level modules:
+# 	overload_testbench
+# End time: 15:05:56 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:06:04 on Dec 02,2018, Elapsed time: 0:55:10
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work overload_testbench 
+# Start time: 15:06:04 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.overload_testbench
+# Loading work.overload
+# ** Error: Cannot open macro file: overload_wave.do
+# Error in macro ./runlab.do line 27
+# Cannot open macro file: overload_wave.do
+#     while executing
+# "do overload_wave.do"
+add wave -position end  sim:/overload_testbench/reset
+add wave -position end  sim:/overload_testbench/SW
+add wave -position end  sim:/overload_testbench/ovld
+add wave -position end  sim:/overload_testbench/j
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {F:/EE271/Lab 8/overload_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:28 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 15:06:28 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:28 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 15:06:28 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:28 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 15:06:29 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:29 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 15:06:29 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:29 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 15:06:29 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:29 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 15:06:29 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:29 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 15:06:29 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:29 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 15:06:29 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:29 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 15:06:29 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:29 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 15:06:29 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:29 on Dec 02,2018
+# vlog -reportprogress 300 ./overload.sv 
+# -- Compiling module overload
+# -- Compiling module overload_testbench
+# 
+# Top level modules:
+# 	overload_testbench
+# End time: 15:06:30 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:06:32 on Dec 02,2018, Elapsed time: 0:00:28
+# Errors: 3, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work overload_testbench 
+# Start time: 15:06:32 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.overload_testbench
+# Loading work.overload
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:43 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 15:08:43 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:43 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 15:08:43 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:43 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 15:08:43 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:43 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 15:08:43 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:43 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 15:08:43 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:43 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 15:08:44 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:44 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 15:08:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:44 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 15:08:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:44 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 15:08:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:44 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 15:08:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:08:44 on Dec 02,2018
+# vlog -reportprogress 300 ./overload.sv 
+# -- Compiling module overload
+# -- Compiling module overload_testbench
+# 
+# Top level modules:
+# 	overload_testbench
+# End time: 15:08:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:08:51 on Dec 02,2018, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work overload_testbench 
+# Start time: 15:08:51 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.overload_testbench
+# Loading work.overload
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position end  sim:/overload_testbench/dut/sum
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {F:/EE271/Lab 8/overload_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:43 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 15:09:43 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:43 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 15:09:43 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:43 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 15:09:43 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:43 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 15:09:44 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:44 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 15:09:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:44 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 15:09:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:44 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 15:09:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:44 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 15:09:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:44 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 15:09:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:44 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 15:09:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:44 on Dec 02,2018
+# vlog -reportprogress 300 ./overload.sv 
+# -- Compiling module overload
+# -- Compiling module overload_testbench
+# 
+# Top level modules:
+# 	overload_testbench
+# End time: 15:09:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:09:47 on Dec 02,2018, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work overload_testbench 
+# Start time: 15:09:47 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.overload_testbench
+# Loading work.overload
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:09 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 15:23:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:09 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 15:23:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:09 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 15:23:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:09 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 15:23:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:09 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 15:23:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:09 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 15:23:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:09 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 15:23:09 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:09 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 15:23:10 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:10 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 15:23:10 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:10 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 15:23:10 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:10 on Dec 02,2018
+# vlog -reportprogress 300 ./overload.sv 
+# -- Compiling module overload
+# -- Compiling module overload_testbench
+# 
+# Top level modules:
+# 	overload_testbench
+# End time: 15:23:10 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:23:15 on Dec 02,2018, Elapsed time: 0:13:28
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work destination_testbench 
+# Start time: 15:23:15 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.destination_testbench
+# Loading work.destination
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./destination.sv(173)
+#    Time: 2750 ps  Iteration: 1  Instance: /destination_testbench
+# Break in Module destination_testbench at ./destination.sv line 173
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:43 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 15:33:43 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:43 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 15:33:44 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:44 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 15:33:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:44 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 15:33:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:44 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 15:33:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:44 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 15:33:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:44 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 15:33:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:44 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 15:33:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:44 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 15:33:44 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:44 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 15:33:45 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:33:45 on Dec 02,2018
+# vlog -reportprogress 300 ./overload.sv 
+# -- Compiling module overload
+# -- Compiling module overload_testbench
+# 
+# Top level modules:
+# 	overload_testbench
+# End time: 15:33:45 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:33:49 on Dec 02,2018, Elapsed time: 0:10:34
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work destination_testbench 
+# Start time: 15:33:49 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.destination_testbench
+# Loading work.destination
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./destination.sv(180)
+#    Time: 950 ps  Iteration: 1  Instance: /destination_testbench
+# Break in Module destination_testbench at ./destination.sv line 180
+# WARNING: No extended dataflow license exists
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:34 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 16:05:34 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:34 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 16:05:34 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:34 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 16:05:34 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:34 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 16:05:34 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:34 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 16:05:34 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:34 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 16:05:34 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:34 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 16:05:34 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:34 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 16:05:35 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:35 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 16:05:35 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:35 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 16:05:35 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:35 on Dec 02,2018
+# vlog -reportprogress 300 ./overload.sv 
+# -- Compiling module overload
+# -- Compiling module overload_testbench
+# 
+# Top level modules:
+# 	overload_testbench
+# End time: 16:05:35 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:05:40 on Dec 02,2018, Elapsed time: 0:31:51
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 16:05:41 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.doubleDFFs
+# Loading work.userInput
+# Loading work.destination
+# Loading work.move
+# Loading work.clock_divider
+# Loading work.displayFloor
+# Loading work.overload
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(93)
+#    Time: 2850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 93
+add wave -position 4  sim:/DE1_SoC_testbench/KEY[3]
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {F:/EE271/Lab 8/DE1_SoC_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:21 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 16:06:21 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:21 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 16:06:21 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:21 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 16:06:21 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:21 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 16:06:21 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:22 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 16:06:22 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:22 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 16:06:22 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:22 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 16:06:22 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:22 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 16:06:22 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:22 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 16:06:22 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:22 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 16:06:22 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:22 on Dec 02,2018
+# vlog -reportprogress 300 ./overload.sv 
+# -- Compiling module overload
+# -- Compiling module overload_testbench
+# 
+# Top level modules:
+# 	overload_testbench
+# End time: 16:06:22 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:06:24 on Dec 02,2018, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 16:06:24 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.doubleDFFs
+# Loading work.userInput
+# Loading work.destination
+# Loading work.move
+# Loading work.clock_divider
+# Loading work.displayFloor
+# Loading work.overload
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(93)
+#    Time: 2850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 93
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:32 on Dec 02,2018
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 17:18:33 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:33 on Dec 02,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 17:18:33 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:33 on Dec 02,2018
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 17:18:33 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:33 on Dec 02,2018
+# vlog -reportprogress 300 ./doubleDFFs.sv 
+# -- Compiling module doubleDFFs
+# -- Compiling module doubleDFFs_testbench
+# 
+# Top level modules:
+# 	doubleDFFs_testbench
+# End time: 17:18:33 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:33 on Dec 02,2018
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput_testbench
+# End time: 17:18:33 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:33 on Dec 02,2018
+# vlog -reportprogress 300 ./displayResult.sv 
+# -- Compiling module displayResult
+# -- Compiling module displayResult_testbench
+# 
+# Top level modules:
+# 	displayResult_testbench
+# End time: 17:18:33 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:33 on Dec 02,2018
+# vlog -reportprogress 300 ./doors.sv 
+# -- Compiling module doors
+# -- Compiling module doors_testbench
+# 
+# Top level modules:
+# 	doors_testbench
+# End time: 17:18:33 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:33 on Dec 02,2018
+# vlog -reportprogress 300 ./displayFloor.sv 
+# -- Compiling module displayFloor
+# -- Compiling module displayFloor_testbench
+# 
+# Top level modules:
+# 	displayFloor_testbench
+# End time: 17:18:33 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:33 on Dec 02,2018
+# vlog -reportprogress 300 ./destination.sv 
+# -- Compiling module destination
+# -- Compiling module destination_testbench
+# 
+# Top level modules:
+# 	destination_testbench
+# End time: 17:18:34 on Dec 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:34 on Dec 02,2018
+# vlog -reportprogress 300 ./move.sv 
+# -- Compiling module move
+# -- Compiling module move_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	move_testbench
+# End time: 17:18:34 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:34 on Dec 02,2018
+# vlog -reportprogress 300 ./overload.sv 
+# -- Compiling module overload
+# -- Compiling module overload_testbench
+# 
+# Top level modules:
+# 	overload_testbench
+# End time: 17:18:34 on Dec 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:18:38 on Dec 02,2018, Elapsed time: 1:12:14
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 17:18:38 on Dec 02,2018
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.doubleDFFs
+# Loading work.userInput
+# Loading work.destination
+# Loading work.move
+# Loading work.clock_divider
+# Loading work.displayFloor
+# Loading work.overload
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(91)
+#    Time: 2850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 91
+# End time: 18:45:31 on Dec 02,2018, Elapsed time: 1:26:53
+# Errors: 0, Warnings: 0

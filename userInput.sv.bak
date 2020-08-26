@@ -1,0 +1,52 @@
+module userInput(Clock, Reset, in, out);
+ input logic Clock, Reset, in;
+ output logic out;
+ enum {A, B, C} ps, ns;
+ 
+ always_comb begin
+  case(ps)
+   A: if (in) ns = B;
+	   else    ns = A;
+	B: if (in) ns = B;
+	   else    ns = C;
+	C: if (in) ns = B;
+	   else    ns = A;
+  endcase
+ end
+ 
+ assign out = ((ps == C) | (ps == A & in));
+ 
+ always_ff @(posedge Clock) begin
+  if (Reset)
+   ps <= A;
+  else
+   ps <= ns;
+ end
+endmodule
+
+module userInput_testbench();
+ logic Clock, reset, in, out;
+ 
+ userInput dut (Clock, reset, in, out);
+ 
+ parameter CLOCK_PERIOD=100;
+	initial begin
+	   Clock<= 0;
+		forever #(CLOCK_PERIOD/2) Clock <= ~Clock;
+	end
+ initial begin
+ reset <= 1; in <= 0; @(posedge Clock)
+                      @(posedge Clock)
+							 @(posedge Clock)
+ reset <= 0;          @(posedge Clock)
+                      @(posedge Clock)
+							 @(posedge Clock)
+				 in <= 1; @(posedge Clock)
+				          @(posedge Clock)
+							 @(posedge Clock)
+				 in <= 0; @(posedge Clock)
+				 in <= 1; @(posedge Clock)
+				 in <= 0; @(posedge Clock)
+ $stop;
+ end
+endmodule 
